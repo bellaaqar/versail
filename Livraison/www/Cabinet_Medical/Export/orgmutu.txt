@@ -1,0 +1,1 @@
+4	"12345888"	"Palaiseau"	"24-26 Impasse de la cerisaie"	""	"91120"	"Palaiseau"	"0101010101"	"Taux de remboursement general (si vide, charge auto. a 100%)"	"Commentaire"	""	""	""	""	"Code Echeance de paiement de organisme"	"Code Mode de reglement de organisme"	"palaiseau@gmail.com"	"0202020202"	"""Nprefectoral (obligatoire pour teletransmission avec norme B2-R)"	

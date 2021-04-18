@@ -1,0 +1,155 @@
+body
+{
+    background: #FFFFFF url(../Images/interface/CERFA_11164.JPG) repeat-y scroll 0 0;
+    height:auto;
+}
+
+
+#ligne1
+{
+}
+
+#nuss
+{
+left:129px;
+position:absolute;
+top:229px;
+}
+#nuss-suite
+{
+    left:496px;
+position:absolute;
+top:229px;
+}
+#organisme
+{
+left:791px;
+position:absolute;
+top:229px;
+}
+
+#ligne2
+{
+}
+
+#nom
+{
+    left:227px;
+    position:absolute;
+    top:275px;
+}
+#prenom
+{
+    left:913px;
+    position:absolute;
+    top:275px;
+}
+
+
+#ligne3
+{
+}
+
+#identif
+{
+left:652px;
+position:absolute;
+top:439px;
+}
+#identif-pres
+{
+    left:652px;
+position:absolute;
+top:456px;
+}
+#date
+{
+    left:1008px;
+position:absolute;
+top:438px;
+}
+
+#ligne4
+{
+    left:102px;
+    position:absolute;
+    top:621px;
+}
+#ligne5
+{
+    left:1026px;
+    position:absolute;
+    top:993px;
+}
+#ligne6
+{
+}
+
+#ligne7
+{
+    left:76px;
+
+position:absolute;
+top:484px;
+}
+
+#ligne8
+{
+    left:422px;
+
+position:absolute;
+top:484px;
+}
+
+#ligne9
+{
+    left:76px;
+
+position:absolute;
+top:530px;
+}
+
+#ligne10
+{
+left:48px;
+position:absolute;
+top:1056px;
+}
+#ligne11
+{
+    left:750px;
+position:absolute;
+top:229px;
+}
+
+#ligne12
+{
+    left:823px;
+position:absolute;
+top:484px; 
+}
+#ligne13
+{
+ left:823px;
+position:absolute;
+top:530px;
+}
+
+#date-now
+{
+    left:541px;
+position:absolute;
+top:1085px;
+}
+#ville
+{
+    left:541px;
+    position:absolute;
+    top:1132px;
+}
+#ligne-all
+{
+   
+    position:absolute;
+    top:1597px;
+}

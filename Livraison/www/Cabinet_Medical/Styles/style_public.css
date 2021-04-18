@@ -1,0 +1,338 @@
+/* CSS par dig^^ pour http://www.kits-gratuits.net */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font: normal 0.7em Verdana, "Trebuchet MS" , Tahoma, Helvetica, Sans-serif;
+    background: #FFFFFF none repeat scroll 0 0;
+    color: #535252;
+    /*background: rgb(0, 0, 0) none repeat scroll 0pt 50%; 
+    z-index: 101; 
+    -moz-background-clip: -moz-initial; 
+    -moz-background-origin: -moz-initial; 
+    -moz-background-inline-policy: -moz-initial; 
+    position: absolute; 
+    top: 0px; 
+    opacity: 0.5; 
+    height: 706px; 
+    width: 1263px;*/
+    
+}
+
+#page
+{
+    background: #FFFFFF url(../Images/interface/background_page_home.gif) repeat-y scroll 0 0;
+    height: 100%;
+    width: 960px;
+    margin: 0px auto;
+}
+
+
+
+#header
+{
+    background: transparent url(../Images/interface/header.jpg) no-repeat scroll 0 0;
+    height: 102px;
+    margin: 0;
+    padding: 10px 0 0 10px;
+}
+
+
+h1
+{
+    /*background:url(../Images/interface/header.jpg) top left no-repeat*/
+    text-indent: -9000px;
+    width: 100%;
+    height: 100px;
+    margin-top: 23px;
+}
+
+h1 span
+{
+    color: #C8C4E1;
+    text-transform: uppercase;
+}
+
+img#logo
+{
+    border: 0;
+    margin: 35px 0 0 20px;
+}
+
+
+
+#contenu
+{
+    width: 835px;
+    margin-top: -32px;
+}
+
+
+
+
+#bloc
+{
+    float: right;
+    margin-right: -67px;
+    margin-top: 9px;
+    text-align: justify;
+    width: 100%;
+    background: #fff;
+}
+
+#bloc h2
+{
+    color: #99B927;
+    font: normal 1.6em Verdana, Sans-serif;
+    background: url(../Images/interface/puce_titre.png) left no-repeat;
+    text-indent: 15px;
+    margin: 5px 10px;
+}
+
+#bloc p
+{
+    width: 440px;
+    margin: 0 10px;
+}
+
+p.desc
+{
+    color: #DCDADA;
+    font: normal 0.8em Verdana, Sans-serif;
+    padding: 0 0 5px 10px;
+}
+p.desc a
+{
+    color: #DCDADA;
+    text-decoration: none;
+}
+p.desc a:hover
+{
+    text-decoration: underline;
+}
+
+p.commentaires
+{
+    padding: 15px 0 3px 0;
+    text-align: right;
+    width: 100%;
+    border-bottom: 1px dashed #807F7F;
+}
+p.commentaires a
+{
+    color: #1187CB;
+    text-decoration: none;
+}
+p.commentaires a:hover
+{
+    color: #1187CB;
+    text-decoration: underline;
+}
+p.commentaires em
+{
+    font-style: normal;
+    font-weight: bold;
+}
+
+.titre1
+{
+    color: #99B927;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 36px;
+    display: block;
+    margin-left: 129px;
+    margin-top:-52px;
+    font-family:Georgia;
+    text-align:center;
+}
+.titre2
+{
+    /*color: #99B927;*/
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 19px;
+    display: block;
+    margin-top: 105px;
+    font-family:Georgia;
+}
+a
+{
+    text-decoration: none;
+}
+
+
+
+.logo
+{
+    background:transparent url(../Images/interface/logo.GIF) no-repeat scroll left 29px;
+    display: inline;
+    margin-right: 18px;
+    font-style:italic;
+    margin-right:-107px;
+    float: left;
+}
+
+#footer
+{
+    background: transparent url(../Images/interface/footer.jpg) no-repeat scroll 0 0;
+    clear: both;
+    color: #0082B6;
+    font-size: 10px;
+    height: 19px;
+    padding-top: 14px;
+    text-align: center;
+    width: 960px;
+}
+
+#menu_gauche
+{
+    background: #99B927 url(../Images/interface/banner.gif) no-repeat scroll 0 0;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 60px 0 0 10px;
+    padding: 6px 0 0 10px;
+    text-align: center;
+    width: 930px;
+    height:26px;
+    font-family:georgia;
+}
+#module
+{
+    margin-left: 132px;
+    width: 578px;
+    height: 320px;
+    border: 1px dashed #807F7F;
+}
+
+.imageAcceuil
+{
+    background: transparent url(../Images/interface/chaussures-orthopediques.jpg) no-repeat scroll 0 0;
+}
+.acceuil
+{
+    background:transparent url(../Images/interface/fond-boutique.JPG) no-repeat scroll 0 0;
+   height:262px;
+    margin-left:13px;
+    width:440px;
+    font-family:Georgia;
+    font-style:italic;
+    padding:22px 35px 35px 92px;
+}
+
+.imageCatalogue
+{
+    background: transparent url(../Images/interface/fond-boutique.JPG) no-repeat scroll 12px 0;
+    height:278px;
+    padding-top:42px;
+}
+.imageBoutique
+{
+    background: transparent url(../Images/interface/jean-labbe.JPG) no-repeat scroll 12px 0;
+}
+.imagePropos
+{
+    background: transparent url(../Images/interface/fond-boutique.JPG) no-repeat scroll 12px 0;
+    color:#535252;
+    display:block;
+    font-size:24px;
+    height:208px;
+    margin-top:0;
+    padding-top:112px;
+    text-align:center;
+}
+.imageAcces
+{
+    background: transparent url(../Images/interface/mapLabbe.PNG) no-repeat scroll 0 -114px;
+}
+.formulaireContact
+{
+    background: transparent url(../Images/interface/fond-boutique.JPG) no-repeat scroll 12px 0;
+    color: #535252;
+    display: block;
+    font-size: 17px;
+    height:208px;
+    margin-top:0;
+    padding-top:112px;
+}
+
+
+
+#centrale
+{
+}
+
+.hide
+{
+    display: none;
+}
+
+#menu
+{
+    font-family:georgia;
+    font-size:20px;
+    font-style:italic;
+    text-align:center;
+}
+
+#menu a
+{
+    color: #3F3F3F;
+    text-decoration: underline;
+    padding:10px;
+    outline:none;
+}
+#menu a
+{
+    color: #3F3F3F;
+    text-decoration: underline;
+}
+
+#menu a:hover
+{
+    text-decoration: none;
+}
+
+#contact
+{
+    text-align: center;
+}
+.sous-titre
+{
+    color:#000000;
+    font-size:19px;
+    display:block;
+    margin-top:12px;
+    font-weight:bold;
+    font-style:italic;
+}
+.intranet
+{
+    float:right;
+    margin-right:11px;
+    margin-top:31px;
+}
+.titre-contact
+{
+    font-family:Georgia;
+    margin-top:-90px;
+    text-align:center;
+}
+.formulaire-contact
+{
+    font-family:Georgia;
+    margin-left:124px;
+    margin-top:37px;
+}
+.table-text
+{
+    font-size:20px;
+    font-weight:bold;
+}

@@ -1,0 +1,623 @@
+/* CSS par dig^^ pour http://www.kits-gratuits.net */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font: normal 0.7em Verdana, "Trebuchet MS" , Tahoma, Helvetica, Sans-serif;
+    background: #C8C4E1 none repeat scroll 0 0;
+    color: #535252;
+}
+
+#page
+{
+    background: #FFFFFF url(../Images/interface/background_page_home.gif) repeat-y scroll 0 0;
+    height: 100%;
+    width: 960px;
+    margin: 50px auto;
+}
+
+
+
+#header
+{
+    background: transparent url(../Images/interface/header.jpg) no-repeat scroll 0 0;
+    height: 102px;
+    margin: 0;
+    padding: 10px 0 0 10px;
+}
+
+
+h1
+{
+    /*background:url(../Images/interface/header.jpg) top left no-repeat*/
+    text-indent: -9000px;
+    width: 100%;
+    height: 100px;
+    margin-top: 23px;
+}
+
+h1 span
+{
+    color: #C8C4E1;
+    text-transform: uppercase;
+}
+
+img#logo
+{
+    border: 0;
+    margin: 35px 0 0 20px;
+}
+
+ul#menu
+{
+    list-style-type: none;
+    float: right;
+    text-align: center;
+    margin-top: -2px;
+}
+
+ul#menu li
+{
+    display: inline;
+}
+
+ul#menu a
+{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 25px;
+    color: #535252;
+    text-transform: uppercase;
+    background: url(../Images/interface/puce_menu.png) 100px no-repeat;
+    text-decoration: none;
+}
+
+ul#menu a:hover
+{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 25px;
+    color: #535252;
+    text-transform: uppercase;
+    background: url(../Images/interface/puce_menu.png) bottom no-repeat;
+    text-decoration: none;
+}
+
+#contenu
+{
+    width: 835px;
+    margin-top: -32px;
+}
+
+
+
+#menu_gauche
+{
+    background: #99B927 none repeat scroll 0 0;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    height: 27px;
+    margin: 60px 0 0 10px;
+    padding: 6px 0 0 10px;
+    text-align: center;
+    width: 930px;
+}
+
+#barre
+{
+     background: #99B927 none repeat scroll 0 0;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    height: 27px;
+    margin: 60px 0 0 10px;
+    padding: 6px 0 0 10px;
+    text-align: center;
+    width: 930px;
+}
+
+#menu_gauche a
+{
+    color: #fff;
+}
+#menu_gauche a:hover
+{
+    text-decoration: underline;
+}
+
+#bloc
+{
+    float: right;
+    margin-right: -67px;
+    margin-top: 33px;
+    text-align: justify;
+    width: 100%;
+    background: #fff;
+}
+
+#bloc h2
+{
+    color: #99B927;
+    font: normal 1.6em Verdana, Sans-serif;
+    background: url(../Images/interface/puce_titre.png) left no-repeat;
+    text-indent: 15px;
+    margin: 5px 10px;
+}
+
+#bloc p
+{
+    width: 440px;
+    margin: 0 10px;
+}
+
+p.desc
+{
+    color: #DCDADA;
+    font: normal 0.8em Verdana, Sans-serif;
+    padding: 0 0 5px 10px;
+}
+p.desc a
+{
+    color: #DCDADA;
+    text-decoration: none;
+}
+p.desc a:hover
+{
+    text-decoration: underline;
+}
+
+p.commentaires
+{
+    padding: 15px 0 3px 0;
+    text-align: right;
+    width: 100%;
+    border-bottom: 1px dashed #807F7F;
+}
+p.commentaires a
+{
+    color: #1187CB;
+    text-decoration: none;
+}
+p.commentaires a:hover
+{
+    color: #1187CB;
+    text-decoration: underline;
+}
+p.commentaires em
+{
+    font-style: normal;
+    font-weight: bold;
+}
+
+.titre1
+{
+    color: #535252;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 36px;
+    display: block;
+    margin-left:129px;
+}
+.titre2
+{
+    color: #99B927;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 51px;
+    display:block;
+    margin-top:21px;
+}
+a
+{
+    text-decoration: none;
+}
+
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+th
+{
+    font-weight: bold;
+    border: 1px solid #99B927;
+    text-align: center;
+    cursor: auto;
+}
+
+td
+{
+    border: 1px solid #99B927;
+}
+tr
+{
+    /*cursor: pointer;*/
+}
+
+input
+{
+    font: normal 11px Verdana, "Trebuchet MS" , Tahoma, Helvetica, Sans-serif;
+    color: #535252;
+    width: 265px;
+}
+textarea
+{
+    font: normal 11px Verdana, "Trebuchet MS" , Tahoma, Helvetica, Sans-serif;
+    color: #535252;
+    width: 265px;
+}
+
+.btn
+{
+    text-align: center;
+    margin: 10px;
+}
+.msg
+{
+    color: Red;
+    text-align: center;
+    margin: 10px;
+}
+
+#AUTH
+{
+    background: #FFFFFF none repeat scroll 0 0;
+    height: 211px;
+    margin: 0 0 0 10px;
+    top: 110px;
+    width: 940px;
+}
+#AUTH .titre-authentification
+{
+    color: #99B927;
+    font: normal Verdana, "Trebuchet MS" , Tahoma, Helvetica, Sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+#AUTH table.table-authentification
+{
+    border-collapse: separate;
+    margin: 0 0 0 253px;
+    width: 100%;
+}
+#AUTH .table-authentification th
+{
+    border: none;
+}
+
+
+#AUTH .table-authentification td
+{
+    width: 33px;
+    border: none;
+}
+
+#AUTH .table-authentification tr
+{
+    cursor: default;
+}
+
+#AUTH input
+{
+    width: 100px;
+}
+#AUTH .btn input
+{
+    color: #fff;
+    background-color: #99B927;
+}
+.dossier-client
+{
+    margin: 10px 0 0 56px;
+}
+.recherche-commande
+{
+    margin: 10px 0 0 193px;
+}
+
+.dossier-client-right
+{
+    display: inline;
+}
+.dossier-client-left
+{
+    display: inline;
+    float: left;
+    width: 160px;
+}
+.dossier-client-ligne
+{
+    margin-top: 17px;
+    text-align:left;
+}
+.recherche-client-left
+{
+    display: inline;
+    float: left;
+    width: 129px;
+}
+.recherche-client-right
+{
+    display: inline;
+}
+.recherche-client
+{
+    margin: 10px 0 0 169px;
+}
+.recherche-client-ligne
+{
+    margin-top: 10px;
+}
+.btn-recherche
+{
+    margin: 38px 0 0 75px;
+}
+
+input.size
+{
+    width: 0px;
+}
+select.size
+{
+    width:33px;
+}
+.right_elements
+{
+    margin: 10px;
+}
+.right_elements_classe
+{
+    margin: 0 0 0 124px
+}
+.left_elements
+{
+    float: right;
+    margin: -15px 0 0 0;
+}
+.logo
+{
+    display: inline;    
+    margin-right: 18px;
+    margin-top: 30px;
+    float:left;
+}
+
+#footer
+{
+    background: transparent url(../Images/interface/footer.jpg) no-repeat scroll 0 0;
+    clear: both;
+    color: #0082B6;
+    font-size: 10px;
+    height: 19px;
+    padding-top: 14px;
+    text-align: center;
+    width: 960px;
+}
+
+
+
+#M1
+{
+    background-color: #99B927;
+    color: #000000;    
+    position: absolute;
+    list-style-type: none;
+    text-align:left;
+    width:181px;
+    font-size:12px;
+    
+}
+
+#M2
+{
+    background-color: #99B927;
+    color: #000000;    
+    position: absolute;
+    list-style-type: none;
+    text-align:left;
+    width:217px;
+    font-size:12px;
+    
+}
+
+#M3
+{
+    background-color: #99B927;
+    color: #000000;    
+    position: absolute;
+    list-style-type: none;
+    text-align:left;
+    width:224px;
+    font-size:12px;
+   
+}
+#M4
+{
+    background-color: #99B927;
+    color: #000000;    
+    position: absolute;
+    list-style-type: none;
+    text-align:left;
+    width:224px;
+    font-size:12px;
+   
+}
+
+#M5
+{
+    background-color: #99B927;
+    color: #000000;    
+    position: absolute;
+    list-style-type: none;
+    text-align:left;
+    width:224px;
+    font-size:12px;
+   
+}
+
+#M1 li
+{
+ border-bottom:1px solid #fff;
+}
+#M2 li
+{
+ border-bottom:1px solid #fff;
+}
+#M3 li
+{
+ border-bottom:1px solid #fff;
+}
+#M4 li
+{
+ border-bottom:1px solid #fff;
+}
+
+.link-client a
+{
+    color:#C8C4E1;
+    padding-left:5px;
+}
+.link-client a:hover
+{
+    text-decoration:underline;
+}
+#button-facture 
+{
+    
+}
+
+.dossier-client-right a
+{
+    color:#99B927;
+    font-weight:bold;
+}
+.dossier-client-right a:hover
+{
+    text-decoration:underline;
+}
+
+.ss1
+{
+    width:9px;
+}
+.ss2
+{
+    width:17px;
+}
+.ss3
+{
+    width:17px;
+}
+.ss4
+{
+    width:17px;
+}
+.ss5
+{
+    width:26px;
+}
+.ss6
+{
+    width:26px;
+}
+.ss7
+{
+    width:17px;
+}
+select 
+{
+color:#535252;
+font-family:Verdana,"Trebuchet MS",Tahoma,Helvetica,Sans-serif;
+font-size:11px;
+width:265px;
+}
+
+.input-date
+{
+    width:100px;
+    margin-left:10px;
+}
+.input-date-accord
+{
+     width:236px;
+}
+#produit
+{
+    background-color:whiteSmoke;
+    border:1px solid #99B927;
+    height:233px;
+    left:345px;
+    position:absolute;
+    top:356px;
+    width:597px;
+    padding:10px;
+}
+#produit .femer 
+{
+    margin-left:256px;
+}
+
+.deconnexion
+{
+float:right;
+margin-left:359px;
+margin-right:23px;
+margin-top:8px;
+}
+
+.deconnexion a
+{
+    color:#535252;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.deconnexion a:hover
+{
+    text-decoration:none;
+}
+.liste-produit
+{
+    margin-left:159px;
+}
+
+#pagination 
+{
+    
+    float:right;
+    padding-bottom:10px;
+}
+#pagination a
+{
+    color:#99B927;
+    text-decoration:underline;
+}
+
+#pagination a:hover
+{
+    text-decoration:none;
+}
+.hide
+{
+    display:none;
+}
+input.prix 
+{
+    width:65px;
+}
+
+.div-fichiers
+{
+    margin-right:30px;
+}

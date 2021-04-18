@@ -1,0 +1,109 @@
+
+#page
+{
+    width: 500px;
+    font-family: Arial;
+}
+
+h3
+{
+    color: #808080;
+    text-align: center;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+th
+{
+    font-weight: bold;
+    border: 1px solid #808080;
+    text-align: center;
+    cursor: auto;
+}
+
+.entete td
+{
+    border: 1px solid #808080;
+}
+
+.right
+{
+    color: #808080;
+}
+.left
+{
+}
+.titre
+{
+    font-weight: bold;
+    text-align: center;
+}
+.description
+{
+    font-size: 12px;
+    text-align: center;
+}
+
+#date
+{
+    float: right;
+    margin: 6px;
+    font-size: 13px;
+}
+h2
+{
+    text-decoration: underline;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+.bas-page
+{
+    color: #808080;
+    font-size: 10px;
+    margin: 20px 103px;
+    text-align: center;
+    width: 279px;
+}
+#signature
+{
+    font-size: 14px;
+    text-align: right;
+    width: 500px;
+}
+
+#civilite
+{
+    font-size: 13px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+#para1
+{
+    font-size: 13px;
+     margin-bottom: 25px;
+}
+#para2
+{
+    font-size: 13px;
+     margin-bottom: 25px;
+}
+#para3
+{
+    font-size: 13px;
+     margin-bottom: 25px;
+}
+#para4
+{
+    font-size: 13px;
+     margin-bottom: 25px;
+}
+#para5
+{
+    font-size: 13px;
+     margin-bottom: 25px;
+}

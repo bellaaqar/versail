@@ -1,0 +1,109 @@
+body
+{
+    background: #FFFFFF url(../Images/interface/CERFA_11389.JPG) no-repeat scroll 0 0;
+    height:1618px;
+    width:1144px;
+    
+}
+#assure
+{
+}
+#Nom
+{
+    left:481px;
+position:absolute;
+top:120px;
+ }
+ #numSS
+{
+   left:418px;
+position:absolute;
+top:237px;
+ }
+  #numSS-suite
+{
+   left:687px;
+position:absolute;
+top:237px;
+ }
+ 
+#cabinet
+{
+    left: 91px;
+    position: absolute;
+    top: 474px;
+    width: 100%;
+    height:100%;
+    /*background: url(../Images/interface/tampon.JPG) no-repeat scroll 0 0;*/
+}
+#prescripteur
+{
+}
+#facture
+{
+     left: 91px;
+    position: absolute;
+    top: 874px;
+    width: 528px;
+}
+#prix-total
+{
+left:900px;
+position:absolute;
+top:1343px;
+}
+
+#code-barre
+{
+ left:632px;
+position:absolute;
+top:855px;  
+}
+#identif
+{
+left:866px;
+position:absolute;
+top:494px;
+}
+#identif-pres
+{
+left:866px;
+position:absolute;
+top:514px;
+
+}
+#pres-date
+{
+left:866px;
+position:absolute;
+top:578px;
+
+}
+#organisme
+{
+     left:844px;
+position:absolute;
+top:237px;
+}
+
+#ticket-mode-oui
+{
+     left:587px;
+position:absolute;
+top:684px
+}
+#ticket-mode-non
+{
+     left:690px;
+position:absolute;
+top:684px
+}
+#date_facture
+{
+    left:947px;
+position:absolute;
+top:100px;
+}
+
+
+
